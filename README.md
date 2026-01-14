@@ -1,5 +1,5 @@
 # AI-Based Anomaly Detection in Wazuh
-screenshots/01-wazuh-manager-status.png
+[View Wazuh Manager Status](screenshots/01-wazuh-manager-status.png)
 
 
 ## 📌 Project Overview
