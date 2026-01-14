@@ -91,12 +91,14 @@ Click **Create detector** and configure the detector with default settings.
 * Aggregation: `count()`
 * Purpose: Detect unusual volume of failed logins from a source IP
 
+ [View Adding srcip Feature](screenshots/08-adding-srcip-feature.png)
+
 #### 🔹 Feature 2: failed-logins-agentip
 
 * Field: `agent.ip`
 * Aggregation: `count()`
 * Purpose: Detect abnormal failed login behavior targeting a specific host
-
+[View Adding agentip Feature](screenshots/09-adding-agentip-feature.png)
 
 
 ---
