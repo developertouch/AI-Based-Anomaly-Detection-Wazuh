@@ -1,6 +1,4 @@
 # AI-Based Anomaly Detection in Wazuh
-[View Wazuh Manager Status](screenshots/01-wazuh-manager-status.png)
-
 
 ## 📌 Project Overview
 
@@ -35,14 +33,11 @@ The project was completed as **Task 4** of the **WazuGuardix SOC Internship**, f
 
 ## ⚙️ Implementation Steps
 
-### 1️⃣ Wazuh Manager Status Verification
+### 1️⃣ Wazuh Service Verification
 
-The Wazuh manager services were verified to ensure the SIEM environment was fully operational before configuring anomaly detection.
+Ensure all Wazuh services are running properly on the manager node.
 
-![Wazuh Manager Status](screenshots/01-wazuh-manager-status.png)
-
-
-
+📸 **Screenshot:** Wazuh service status (terminal)
 
 ---
 
@@ -54,9 +49,7 @@ Navigate to:
 Wazuh Dashboard → Anomaly Detection
 ```
 
-The Anomaly Detection module was accessed from the Wazuh dashboard to begin configuring machine-learning–based security monitoring.
-
-![Wazuh Anomaly Detection Menu](screenshots/02-wazuh-anomaly-detection-menu.png)
+📸 **Screenshot:** Anomaly Detection main screen
 
 ---
 
@@ -64,11 +57,7 @@ The Anomaly Detection module was accessed from the Wazuh dashboard to begin conf
 
 Click **Create detector** and configure the detector with default settings.
 
-
-The main anomaly detection dashboard provides visibility into detectors and includes the option to create a new anomaly detector.
-
-![Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
-
+📸 **Screenshot:** Create detector screen
 
 ---
 
@@ -81,29 +70,9 @@ The main anomaly detection dashboard provides visibility into detectors and incl
 * **Detector Interval:** 1 minute
 * **Window Delay:** 1 minute
 
-The main anomaly detection dashboard provides visibility into detectors and includes the option to create a new anomaly detector.
+📸 **Screenshot:** Detector definition screen
 
-![Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
 ---
-
-### 5️⃣ Detector Details Configuration
-
-The detector was named **failed-logins-anomaly** with a description defining its purpose to identify anomalous authentication behavior.
-
-![Detector Details](screenshots/05-detector-details-failed-logins.png)
-
-### 6️⃣ Data Source and Filter Configuration
-
-The data source was set to `wazuh-alerts-*` and filtered to exclude successful authentication events, focusing only on failed login attempts.
-
-![Data Source Configuration](screenshots/06-data-source-wazuh-alerts-filter.png)
-
-### 7️⃣ Operation Settings Configuration
-
-The timestamp field, detector interval, and window delay were configured to enable near real-time anomaly detection.
-
-![Operation Settings](screenshots/07-operation-settings.png)
-
 
 ### 5️⃣ Configure Model Features
 
@@ -221,5 +190,5 @@ This project successfully demonstrates how **machine-learning–driven anomaly d
 
 ## 👤 Author
 
-**Ishtiaq Rashid**
+**Ishtiaq Rashid (Wolf 🐺)**
 SOC Intern | Cybersecurity Analyst
