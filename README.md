@@ -63,6 +63,7 @@ Click **Create detector** and configure the detector with default settings.
 
 
 [View Create Detector Default Configuration](screenshots/04-create-detector-default.png)
+
 ---
 
 ### 4️⃣ Define Detector Configuration
