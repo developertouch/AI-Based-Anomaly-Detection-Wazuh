@@ -165,7 +165,7 @@ hydra -L user.txt -p pass.txt <UBUNTU_IP> ssh -t 4
 
 * Highlights abnormal authentication targeting a specific agent
 * Confirms attack impact on the Ubuntu host
-📸 Screenshot: Feature breakdown – agentip
+
 [View Feature Breakdown – failed-logins-agentip](screenshots/16-feature-breakdown-agentip.png)
 
 ---
@@ -201,5 +201,5 @@ This project successfully demonstrates how **machine-learning–driven anomaly d
 
 ## 👤 Author
 
-**Ishtiaq Rashid (Wolf 🐺)**
+**Ishtiaq Rashid**
 SOC Intern | Cybersecurity Analyst
