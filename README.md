@@ -33,12 +33,13 @@ The project was completed as **Task 4** of the **WazuGuardix SOC Internship**, f
 
 ## ⚙️ Implementation Steps
 
-### 1️⃣ Wazuh Service Verification
+### 1️⃣ Wazuh Manager Status Verification
 
-Ensure all Wazuh services are running properly on the manager node.
+The Wazuh manager services were verified to ensure the SIEM environment was fully operational before configuring anomaly detection.
 
-### 1️⃣ Wazuh Service Verification
-![Wazuh Status](screenshots/1. wazuh manager status.png)
+![Wazuh Manager Status](screenshots/01-wazuh-manager-status.png)
+
+
 
 
 ---
@@ -51,7 +52,9 @@ Navigate to:
 Wazuh Dashboard → Anomaly Detection
 ```
 
-📸 **Screenshot:** Anomaly Detection main screen
+The Anomaly Detection module was accessed from the Wazuh dashboard to begin configuring machine-learning–based security monitoring.
+
+![Wazuh Anomaly Detection Menu](screenshots/02-wazuh-anomaly-detection-menu.png)
 
 ---
 
@@ -59,7 +62,11 @@ Wazuh Dashboard → Anomaly Detection
 
 Click **Create detector** and configure the detector with default settings.
 
-📸 **Screenshot:** Create detector screen
+
+The main anomaly detection dashboard provides visibility into detectors and includes the option to create a new anomaly detector.
+
+![Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
+
 
 ---
 
@@ -72,9 +79,29 @@ Click **Create detector** and configure the detector with default settings.
 * **Detector Interval:** 1 minute
 * **Window Delay:** 1 minute
 
-📸 **Screenshot:** Detector definition screen
+The main anomaly detection dashboard provides visibility into detectors and includes the option to create a new anomaly detector.
 
+![Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
 ---
+
+### 5️⃣ Detector Details Configuration
+
+The detector was named **failed-logins-anomaly** with a description defining its purpose to identify anomalous authentication behavior.
+
+![Detector Details](screenshots/05-detector-details-failed-logins.png)
+
+### 6️⃣ Data Source and Filter Configuration
+
+The data source was set to `wazuh-alerts-*` and filtered to exclude successful authentication events, focusing only on failed login attempts.
+
+![Data Source Configuration](screenshots/06-data-source-wazuh-alerts-filter.png)
+
+### 7️⃣ Operation Settings Configuration
+
+The timestamp field, detector interval, and window delay were configured to enable near real-time anomaly detection.
+
+![Operation Settings](screenshots/07-operation-settings.png)
+
 
 ### 5️⃣ Configure Model Features
 
