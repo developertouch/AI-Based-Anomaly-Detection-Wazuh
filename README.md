@@ -108,7 +108,7 @@ Click **Create detector** and configure the detector with default settings.
 * Enable **Real-time detection**
 * Start detector automatically
 
-📸 **Screenshot:** Detector job configuration
+[View Setting Detector Job](screenshots/10-setting-detector-job.png)
 
 ---
 
@@ -116,7 +116,7 @@ Click **Create detector** and configure the detector with default settings.
 
 Validate detector and model configuration, then create the detector.
 
-📸 **Screenshot:** Detector validation and creation
+[View Review of Detector Settings](screenshots/11-review-detector-settings.png)
 
 ---
 
@@ -136,7 +136,7 @@ hydra -L user.txt -p pass.txt <UBUNTU_IP> ssh -t 4
 * High-frequency authentication failures
 * Simulates brute-force behavior commonly seen in real attacks
 
-📸 **Screenshot:** Kali Linux Hydra brute-force attack
+[View Kali Linux Attack on Agent](screenshots/12-kali-linux-attack-agent.png)
 
 ---
 
@@ -148,7 +148,7 @@ hydra -L user.txt -p pass.txt <UBUNTU_IP> ssh -t 4
 * **Confidence:** ~0.18 (Early-stage ML model confidence)
 * **Last Occurrence:** Timestamp shown in dashboard
 
-📸 **Screenshot:** Live anomaly detection results
+[View Live Anomaly Detection](screenshots/13-live-anomaly-detection.png)
 
 ---
 
@@ -159,14 +159,14 @@ hydra -L user.txt -p pass.txt <UBUNTU_IP> ssh -t 4
 * Shows spikes in failed login attempts from a single source IP
 * Red markers indicate anomaly detection beyond expected behavior
 
-📸 **Screenshot:** Feature breakdown – srcip
+[View Feature Breakdown – failed-logins-srcip](screenshots/15-feature-breakdown-srcip.png)
 
 #### failed-logins-agentip
 
 * Highlights abnormal authentication targeting a specific agent
 * Confirms attack impact on the Ubuntu host
-
-📸 **Screenshot:** Feature breakdown – agentip
+📸 Screenshot: Feature breakdown – agentip
+[View Feature Breakdown – failed-logins-agentip](screenshots/16-feature-breakdown-agentip.png)
 
 ---
 
