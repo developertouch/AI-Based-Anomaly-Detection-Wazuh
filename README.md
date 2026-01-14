@@ -53,13 +53,15 @@ Wazuh Dashboard → Anomaly Detection
 
 [View Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
 
+[View Create Detector Default Configuration](screenshots/04-create-detector-default.png)
+
 ---
 
 ### 3️⃣ Create Anomaly Detector
 
 Click **Create detector** and configure the detector with default settings.
 
-[View Create Detector Default Configuration](screenshots/04-create-detector-default.png)
+
 
 ---
 
