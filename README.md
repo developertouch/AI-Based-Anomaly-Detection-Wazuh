@@ -53,7 +53,7 @@ Wazuh Dashboard → Anomaly Detection
 
 [View Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
 
-[View Create Detector Default Configuration](screenshots/04-create-detector-default.png)
+
 
 ---
 
@@ -62,7 +62,7 @@ Wazuh Dashboard → Anomaly Detection
 Click **Create detector** and configure the detector with default settings.
 
 
-
+[View Create Detector Default Configuration](screenshots/04-create-detector-default.png)
 ---
 
 ### 4️⃣ Define Detector Configuration
@@ -77,6 +77,8 @@ Click **Create detector** and configure the detector with default settings.
 [View Detector Details](screenshots/05-detector-details-failed-logins.png)
 
 [View Data Source & Filter Configuration](screenshots/06-data-source-wazuh-alerts-filter.png)
+
+[View Operation Settings Screenshot](screenshots/07-operation-settings.png)
 
 ---
 
@@ -94,7 +96,7 @@ Click **Create detector** and configure the detector with default settings.
 * Aggregation: `count()`
 * Purpose: Detect abnormal failed login behavior targeting a specific host
 
-[View Operation Settings Screenshot](screenshots/07-operation-settings.png)
+
 
 ---
 
