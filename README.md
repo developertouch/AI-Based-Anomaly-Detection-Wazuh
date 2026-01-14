@@ -37,7 +37,7 @@ The project was completed as **Task 4** of the **WazuGuardix SOC Internship**, f
 
 Ensure all Wazuh services are running properly on the manager node.
 
-📸 **Screenshot:** Wazuh service status (terminal)
+[View Wazuh Manager Status](screenshots/01-wazuh-manager-status.png)
 
 ---
 
@@ -49,7 +49,9 @@ Navigate to:
 Wazuh Dashboard → Anomaly Detection
 ```
 
-📸 **Screenshot:** Anomaly Detection main screen
+[View Anomaly Detection Menu](screenshots/02-wazuh-anomaly-detection-menu.png)
+
+[View Anomaly Detection Main Dashboard](screenshots/03-anomaly-detection-main-dashboard.png)
 
 ---
 
@@ -57,7 +59,7 @@ Wazuh Dashboard → Anomaly Detection
 
 Click **Create detector** and configure the detector with default settings.
 
-📸 **Screenshot:** Create detector screen
+[View Create Detector Default Configuration](screenshots/04-create-detector-default.png)
 
 ---
 
@@ -70,7 +72,9 @@ Click **Create detector** and configure the detector with default settings.
 * **Detector Interval:** 1 minute
 * **Window Delay:** 1 minute
 
-📸 **Screenshot:** Detector definition screen
+[View Detector Details](screenshots/05-detector-details-failed-logins.png)
+
+[View Data Source & Filter Configuration](screenshots/06-data-source-wazuh-alerts-filter.png)
 
 ---
 
@@ -88,7 +92,7 @@ Click **Create detector** and configure the detector with default settings.
 * Aggregation: `count()`
 * Purpose: Detect abnormal failed login behavior targeting a specific host
 
-📸 **Screenshot:** Feature configuration screen
+[View Operation Settings Screenshot](screenshots/07-operation-settings.png)
 
 ---
 
