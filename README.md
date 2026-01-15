@@ -201,5 +201,6 @@ This project successfully demonstrates how **machine-learning–driven anomaly d
 
 ## 👤 Author
 
-**Ishtiaq Rashid**
-SOC Intern | Cybersecurity Analyst
+## Created by:
+**Ishtiaq Rashid**  
+Cybersecurity | SOC Analyst Aspirant 
